@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public interface GetProductsService {
     List<Product> getAllProducts();
-//    Optional<Product> getProductById(UUID id);
-//    List<Product> getProductsByCategory(Category category);
+    Optional<Product> getProductById(UUID id);
+    List<Product> getProductsByCategory(Category category);
 
 }
